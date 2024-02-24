@@ -4,11 +4,10 @@ import Link from "next/link"
 function Header() {
   return (
     <header className="flex">
-      <div className="grow"></div>
+      <div className="grow px-5 py-4 text-lg">
+        <Link href="/">Jet Corp</Link>
+      </div>
       <ul className="flex">
-        <li className="px-5 py-4 text-lg">
-          <Link href="/">Home</Link>
-        </li>
         <li className="px-5 py-4 text-lg">
           <Link href="/performance">Performance</Link>
         </li>
